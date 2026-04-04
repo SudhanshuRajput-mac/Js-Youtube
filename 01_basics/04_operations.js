@@ -44,3 +44,22 @@ gameCounter++ ;
 console.log(gameCounter)
 
 //study ->  prefix and postfix operator in javascript .
+// postfix operator . 
+let x1 = 3;
+const y1 = x1++;
+// x1 is 4; y1 is 3
+
+let x3 = 3n;
+const y3 = x3++;
+// x3 is 4n; y3 is 3n
+console.table([x1 , y1 , x3,y3])
+
+// prefix operator . 
+let x = 3;
+const y = ++x;
+// x is 4; y is 4
+
+let x2 = 3n;
+const y2 = ++x2;
+// x2 is 4n; y2 is 4n
+console.table([x , y , x2,y2])
