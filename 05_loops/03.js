@@ -36,3 +36,14 @@ for(const [key , value] of map){
     // console.log(key , " :- " , value) ; 
 }
 
+// objects . 
+
+const myObject = {
+    "game1" : "NFS" , 
+    "game2" : "amangus" 
+}
+
+for(const key of myObject){
+    // console.log(key) ; 
+}
+// objects are not iteratiable using for of loops . 
