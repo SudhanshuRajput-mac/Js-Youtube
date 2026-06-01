@@ -63,7 +63,10 @@ const userbooks = books.filter( (values) =>{
 // give me books published after 2000 . 
 
 // const userBook = books.filter( (items) => items.publish >= 2000 )
+// in this case scope is used due to which we have to write return keyword . 
+// const userBook = books.filter( (items) => {return items.publish >= 2000} )
 
-const userBook = books.filter( (items) => (items.publish >= 1995 && items.genre === 'History') )
+// const userBook = books.filter( (items) => (items.publish >= 1995 && items.genre === 'History') )
 
+const userBook = books.filter( (items) => {return (items.publish >= 1995 && items.genre == 'History')})
 console.log(userBook)
